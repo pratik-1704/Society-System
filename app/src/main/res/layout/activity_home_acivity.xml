@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".HomeAcivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_profile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/profile"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textSize="28sp"
+            android:layout_marginTop="10sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/img_profile"
+            android:layout_marginLeft="60dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_call"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/contact"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Us"
+            android:textSize="28sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/img_call"
+            android:layout_marginLeft="60dp"
+            />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_rules"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/rules"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_rules"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rules"
+            android:textSize="28sp"
+            android:layout_marginTop="10sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/img_rules"
+            android:layout_marginLeft="60dp"
+            />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_event"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/event"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_event"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event"
+            android:textSize="28sp"
+            android:layout_marginTop="10sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/img_event"
+            android:layout_marginLeft="60dp"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_complain"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/complain"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_complain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Complain"
+            android:textSize="28sp"
+            android:layout_marginTop="10sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/img_complain"
+            android:layout_marginLeft="60dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_meetings"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/meeting"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_meetings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meetings"
+            android:textSize="28sp"
+            android:layout_marginTop="10sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/img_meetings"
+            android:layout_marginLeft="60dp"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_bill"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/bill"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_bill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bills"
+            android:textSize="28sp"
+            android:layout_marginTop="10sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/img_bill"
+            android:layout_marginLeft="60dp"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_parking"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/parking"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_parking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parking"
+            android:textSize="28sp"
+            android:layout_marginTop="10sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/img_parking"
+            android:layout_marginLeft="60dp"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
